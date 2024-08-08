@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     color: #e0e0e0;
-    background-color: #007bff;
+    background-color: #121212;
     justify-content: center;
     align-items: center;
     line-height: 1.6;
@@ -19,8 +19,8 @@ body {
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    color: #000000;
-    background-color: #ffffff;
+    color: #e0e0e0;
+    background-color: #000000;
 }
 
 /* Header Styles */
@@ -49,18 +49,18 @@ footer p {
 /* Main Content Styles */
 main {
     padding: 20px 0;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 h1, h2 {
     color: #1E88E5;
     text-align: center;
     margin-bottom: 40px;
-    animation: swing 1s 30%;
+    animation: swing 1s 10%;
 }
 
 h3 {
-    color: #000000;
+    color: #76FF03;
     margin-bottom: 15px;
     animation: typing 2s steps(20, end);
     white-space: nowrap;
@@ -69,7 +69,7 @@ h3 {
 
 p {
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #b0b0b0;
 }
 
 /* About Us Page Styles */
@@ -86,8 +86,8 @@ p {
 }
 
 .service, .portfolio-item {
-    background-color: #007bff;
-    color: #000000;
+    background-color: #4c4c4c;
+    color: #76FF03;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -101,7 +101,7 @@ p {
 .service:hover, .portfolio-item:hover {
     transform: scale(1.1);
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-    background-color: #007bff;
+    background-color: #616161;
     border: 5px solid yellow;
     animation: pulse 2s infinite;
 }
@@ -115,7 +115,7 @@ p {
 }
 
 .portfolio-item a {
-    color: #000000;
+    color: #76FF03;
     text-decoration: none;
     font-weight: bold;
 }
@@ -125,7 +125,7 @@ button {
     background: #333;
     border-radius: 4px;
     cursor: pointer;
-    animation: spin 2s ;
+    animation: spin 2s;
 }
 
 button:hover {
@@ -210,10 +210,9 @@ button:hover {
 }
 
 .navbar{
-    color: #000000;
-    background-color: #1E88E5;
+    color: #76FF03;
+    background-color: #000000;
 }
-
 .navbar img{
     border-radius: 90px;
 }
@@ -226,5 +225,5 @@ button:hover {
 .toggle-icon {
     font-size: 24px;
     cursor: pointer;
-    color: #ff9500;
+    color: #ffffff;
 }
