@@ -184,6 +184,7 @@ button:hover {
 @keyframes pulse {
     0% {
         transform: scale(1.1);
+        background-color: #62ff00;
     }
     50% {
         transform: scale(1.2);
@@ -241,4 +242,15 @@ button:hover {
     font-size: 24px;
     cursor: pointer;
     color: #ff9500;
+}
+
+.btn-success{
+    margin: auto;
+    padding: auto;
+    animation: pulse 2s infinite;
+}
+h5{
+    margin: auto;
+    padding: auto;
+    font-size: 20px;
 }
