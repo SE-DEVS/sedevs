@@ -88,14 +88,7 @@ p {
     max-width: 850px;
     max-height: 700px;
     overflow-x: scroll;
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
 }
-
-.services::-webkit-scrollbar, .portfolio::-webkit-scrollbar {
-    display: none;  /* For Chrome, Safari, and Opera */
-}
-
 .service, .portfolio-item {
     flex-shrink: 0;
     background-color: transparent;
