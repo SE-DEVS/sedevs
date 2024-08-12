@@ -60,7 +60,7 @@ h1, h2 {
     animation: swing 1s 30%;
 }
 
-h4 {
+h6 {
     color: #000000;
     margin-bottom: 15px;
     animation: typing 2s steps(20, end);
