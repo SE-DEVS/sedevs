@@ -15,3 +15,21 @@
                 themeIcon.classList.add('fa-sun');
             }
         }
+
+        const slogans = [
+            "Website Development",
+            "Software Development",
+            "App Development",
+            "Web Hosting",
+            "E commerce Solutions",
+            "Digital Marketing",
+            "Consulting Services",
+        ];
+        
+        let index = 0;
+        
+        setInterval(() => {
+            document.getElementById('slogan').textContent = slogans[index];
+            index = (index + 1) % slogans.length;
+        }, 2000);  // Change every 5 seconds
+        
