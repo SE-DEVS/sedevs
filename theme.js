@@ -32,4 +32,26 @@
             document.getElementById('slogan').textContent = slogans[index];
             index = (index + 1) % slogans.length;
         }, 2000);  // Change every 5 seconds
+
+document.addEventListener("DOMContentLoaded", function() {
+    const scrollContainers = document.querySelectorAll('.services, .portfolio');
+    
+    scrollContainers.forEach(container => {
+        let scrollAmount = 0;
+        let scrollStep = 1; // Adjust scroll speed here
+        const scrollDelay = 10; // Time delay between scrolls in milliseconds
+        
+        function scrollContent() {
+            scrollAmount += scrollStep;
+            container.scrollLeft = scrollAmount;
+            
+            if (scrollAmount >= container.scrollWidth - container.clientWidth || scrollAmount <= 0) {
+                scrollStep *= -1; // Reverse scroll direction
+            }
+        }
+        
+        setInterval(scrollContent, scrollDelay);
+    });
+});
+
         
