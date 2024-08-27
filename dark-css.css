@@ -17,7 +17,7 @@ body {
     background: url('images/sd1.jpg') no-repeat center center/cover;
     text-align: center;
     padding: 100px 20px;
-    animation: bgSlideshow 15s infinite;
+    animation: bgSlideshow 10s infinite;
 }
 
 @keyframes bgSlideshow {
