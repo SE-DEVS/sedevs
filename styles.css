@@ -186,7 +186,7 @@ p {
     margin: auto;
     padding: 0 10%;
     max-width: 80%;
-    max-height: 700px;
+    max-height: 500px;
     overflow-x: scroll;
     scrollbar-width: none; /* For Firefox */
     -ms-overflow-style: none;  /* For Internet Explorer and Edge */
