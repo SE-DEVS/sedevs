@@ -185,7 +185,7 @@ p {
     gap: 20px;
     margin: auto;
     padding: 0 10%;
-    max-width: 80%;
+    max-width: 100%;
     max-height: 500px;
     overflow-x: scroll;
     scrollbar-width: none; /* For Firefox */
@@ -218,7 +218,7 @@ p {
 /* Portfolio Page Styles */
 .service img, .portfolio-item img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 300px;
     display: block;
     margin-bottom: 10px;
 }
