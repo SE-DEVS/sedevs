@@ -349,3 +349,13 @@ button:hover {
     padding: auto;
     animation: pulse 2s infinite;
 }
+
+.btn-warning{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 1000;
+    margin: auto;
+    padding: auto;
+    animation: pulse 2s infinite;
+}
