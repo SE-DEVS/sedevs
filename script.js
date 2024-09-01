@@ -23,13 +23,13 @@ function calculateRate() {
     let complexityMultiplier;
     switch (complexity) {
         case 'basic':
-            complexityMultiplier = 1.1;
+            complexityMultiplier = 0.9;
             break;
         case 'intermediate':
-            complexityMultiplier = 1.3;
+            complexityMultiplier = 1.1;
             break;
         case 'advanced':
-            complexityMultiplier = 1.5;
+            complexityMultiplier = 1.3;
             break;
         default:
             complexityMultiplier = 1.1;
