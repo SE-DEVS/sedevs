@@ -17,7 +17,7 @@ function calculateRate() {
     }
 
     // Pages/Screens cost in INR
-    const pagesCost = 3000 //pages * 3000;
+    const pagesCost = 3000 + pages * 1000;
 
     // Complexity multiplier
     let complexityMultiplier;
