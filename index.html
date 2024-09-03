@@ -117,17 +117,72 @@
         </div>
     </div>
 </div>
-    <form name="contact" netlify><h6>Feedback</h6>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+  <div class="container">
+        <h1>Feedback Form</h1>
+        <p>We value your opinion and would love to hear about your experience with our product/service.</p>
+        <form id="feedback-form" name="contact" netlify>
+            <!-- Overall Satisfaction -->
+            <div class="section">
+                <h2>Overall Satisfaction</h2>
+                <div class="rating">
+                    <input type="radio" id="rating-1" name="rating" value="1">
+                    <label for="rating-1">1</label>
+                    <input type="radio" id="rating-2" name="rating" value="2">
+                    <label for="rating-2">2</label>
+                    <input type="radio" id="rating-3" name="rating" value="3">
+                    <label for="rating-3">3</label>
+                    <input type="radio" id="rating-4" name="rating" value="4">
+                    <label for="rating-4">4</label>
+                    <input type="radio" id="rating-5" name="rating" value="5">
+                    <label for="rating-5">5</label>
+                </div>
+            </div>
+            <!-- Product/Service Quality -->
+            <div class="section">
+                <h2>Product/Service Quality</h2>
+                <div class="rating">
+                    <input type="radio" id="quality-1" name="quality" value="1">
+                    <label for="quality-1">1</label>
+                    <input type="radio" id="quality-2" name="quality" value="2">
+                    <label for="quality-2">2</label>
+                    <input type="radio" id="quality-3" name="quality" value="3">
+                    <label for="quality-3">3</label>
+                    <input type="radio" id="quality-4" name="quality" value="4">
+                    <label for="quality-4">4</label>
+                    <input type="radio" id="quality-5" name="quality" value="5">
+                    <label for="quality-5">5</label>
+                </div>
+            </div>
+            <!-- Support and Resources -->
+            <div class="section">
+                <h2>Support and Resources</h2>
+                <div class="rating">
+                    <input type="radio" id="support-1" name="support" value="1">
+                    <label for="support-1">1</label>
+                    <input type="radio" id="support-2" name="support" value="2">
+                    <label for="support-2">2</label>
+                    <input type="radio" id="support-3" name="support" value="3">
+                    <label for="support-3">3</label>
+                    <input type="radio" id="support-4" name="support" value="4">
+                    <label for="support-4">4</label>
+                    <input type="radio" id="support-5" name="support" value="5">
+                    <label for="support-5">5</label>
+                </div>
+            </div>
+            <!-- Suggestions and Comments -->
+            <div class="section">
+                <h2>Suggestions and Comments</h2>
+                <textarea id="comments" name="comments" placeholder="Please share your thoughts..."></textarea>
+            </div>
+            <!-- Contact Information (optional) -->
+            <div class="section">
+                <h2>Contact Information (optional)</h2>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
     <script type="text/javascript" src="//delivery.r2b2.io/get/sedevs.netlify.app/generic/sticky"></script>
 <footer>
     <h5>📞 7249785423  hamduleshamsuddin@gmail.com </h5><br>
