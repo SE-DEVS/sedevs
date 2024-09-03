@@ -56,3 +56,30 @@ function calculateRate() {
     // Display the result in INR
     document.getElementById('result').innerHTML = `<strong>Estimated Price:</strong> ₹${total.toLocaleString('en-IN')}`;
 }
+
+
+const form = document.getElementById('feedback-form');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    const feedbackData = {};
+
+    for (const [key, value] of formData.entries()) {
+        feedbackData[key] = value;
+    }
+
+    console.log(feedbackData);
+
+    // Send feedback data to server or API
+    // fetch('/api/feedback', {
+    //     method: 'POST',
+    //     headers: {
+    //         'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify(feedbackData)
+    // })
+    // .then((response) => response.json())
+    // .then((data) => console.log(data))
+    // .catch((error) => console.error(error));
+});
