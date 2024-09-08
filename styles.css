@@ -367,71 +367,6 @@ h1 {
     margin-bottom: 40px;
 }
 
-h2 {
-    margin-top: 0;
-}
-
-.rating {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.rating input[type="radio"] {
-    display: none;
-}
-
-.rating label {
-    width: 40px;
-    height: 40px;
-    font-size: 24px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.rating label:hover {
-    background-color: #ccc;
-}
-
-.rating input[type="radio"]:checked + label {
-    background-color: #007bff;
-    color: #fff;
-}
-
-textarea {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
-}
-
-input[type="text"], input[type="email"] {
-    width: 100%;
-    height: 40px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button[type="submit"] {
-    width: 100%;
-    height: 40px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button[type="submit"]:hover {
-    background-color: #0069d9;
-}
-
 .btn-primary{
     margin: 10px;
 }
@@ -442,7 +377,7 @@ button[type="submit"]:hover {
     z-index: 5;
     top: 0;
     left: 0;
-    background-color: #007bff;
+    background-color: transparent;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -470,9 +405,8 @@ button[type="submit"]:hover {
 }
 
 .openbtn {
-    font-size: 20px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: transparent;
     color: white;
     padding: 10px 15px;
     border: none;
