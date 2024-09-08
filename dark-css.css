@@ -359,3 +359,7 @@ button:hover {
     padding: auto;
     animation: pulse 2s infinite;
 }
+
+.btn-primary{
+    margin: 10px;
+}
