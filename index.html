@@ -30,25 +30,39 @@
       <h2>
         <a class="navbar-brand" href="index.html" title="SE Software & Web Developers">
           <img src="S.png" alt="Logo" width="10%" height="auto">
-        </a>
-        SE Software & Web Developers
+        
+        SE Software & Web Developers</a>
       </h2>
       <script src="theme.js"></script>
       <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()"></i><br>
-      <a href="https://www.linkedin.com/company/se-software-web-developers/" class="btn btn-primary"> LinkedIn </a>
-      <a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-primary"> GitHub </a>
-        <a href="https://wa.me/917249785423" class="btn btn-primary"> WhatsApp </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
-            <a class="nav-link" href="about.html" title="About us">About us</a>
-            <a class="nav-link" href="services.html" title="Services">Services</a>
-            <a class="nav-link" href="portfolio.html" title="Portfolio">Portfolio</a>
-      </div>
+      <!-- Add the Font Awesome library in the head section -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<a href="https://www.linkedin.com/company/se-software-web-developers/" class="btn btn-primary">
+  <i class="fab fa-linkedin"></i> LinkedIn
+</a>
+<a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-primary">
+  <i class="fab fa-github"></i> GitHub
+</a>
+<a href="https://wa.me/917249785423" class="btn btn-primary">
+  <i class="fab fa-whatsapp"></i> WhatsApp
+</a>
+<a class="btn btn-primary" aria-current="page" href="index.html" title="Home">
+  <i class="fas fa-home"></i> Home
+</a>
+<a class="btn btn-primary" href="about.html" title="About us">
+  <i class="fas fa-info-circle"></i> About us
+</a>
+<a class="btn btn-primary" href="services.html" title="Services">
+  <i class="fas fa-cogs"></i> Services
+</a>
+<a class="btn btn-primary" href="portfolio.html" title="Portfolio">
+  <i class="fas fa-briefcase"></i> Portfolio
+</a>
+
     </div>
   </nav>
+
 <header>
     <a href="cal.html" class="btn btn-warning"> Estimate Your Project Rate </a>
     <a href="https://wa.me/917249785423" class="btn btn-success"> Get Your Free Demo Now </a>
@@ -127,72 +141,6 @@
         </div>
     </div>
 </div>
-  <div class="container">
-        <h1>Feedback Form</h1>
-        <p>We value your opinion and would love to hear about your experience with our product/service.</p>
-        <form id="feedback-form" name="contact" netlify>
-            <!-- Overall Satisfaction -->
-            <div class="section">
-                <h2>Overall Satisfaction</h2>
-                <div class="rating">
-                    <input type="radio" id="rating-1" name="rating" value="1">
-                    <label for="rating-1">1</label>
-                    <input type="radio" id="rating-2" name="rating" value="2">
-                    <label for="rating-2">2</label>
-                    <input type="radio" id="rating-3" name="rating" value="3">
-                    <label for="rating-3">3</label>
-                    <input type="radio" id="rating-4" name="rating" value="4">
-                    <label for="rating-4">4</label>
-                    <input type="radio" id="rating-5" name="rating" value="5">
-                    <label for="rating-5">5</label>
-                </div>
-            </div>
-            <!-- Product/Service Quality -->
-            <div class="section">
-                <h2>Product/Service Quality</h2>
-                <div class="rating">
-                    <input type="radio" id="quality-1" name="quality" value="1">
-                    <label for="quality-1">1</label>
-                    <input type="radio" id="quality-2" name="quality" value="2">
-                    <label for="quality-2">2</label>
-                    <input type="radio" id="quality-3" name="quality" value="3">
-                    <label for="quality-3">3</label>
-                    <input type="radio" id="quality-4" name="quality" value="4">
-                    <label for="quality-4">4</label>
-                    <input type="radio" id="quality-5" name="quality" value="5">
-                    <label for="quality-5">5</label>
-                </div>
-            </div>
-            <!-- Support and Resources -->
-            <div class="section">
-                <h2>Support and Resources</h2>
-                <div class="rating">
-                    <input type="radio" id="support-1" name="support" value="1">
-                    <label for="support-1">1</label>
-                    <input type="radio" id="support-2" name="support" value="2">
-                    <label for="support-2">2</label>
-                    <input type="radio" id="support-3" name="support" value="3">
-                    <label for="support-3">3</label>
-                    <input type="radio" id="support-4" name="support" value="4">
-                    <label for="support-4">4</label>
-                    <input type="radio" id="support-5" name="support" value="5">
-                    <label for="support-5">5</label>
-                </div>
-            </div>
-            <!-- Suggestions and Comments -->
-            <div class="section">
-                <h2>Suggestions and Comments</h2>
-                <textarea id="comments" name="comments" placeholder="Please share your thoughts..."></textarea>
-            </div>
-            <!-- Contact Information (optional) -->
-            <div class="section">
-                <h2>Contact Information (optional)</h2>
-                <input type="text" id="name" name="name" placeholder="Name">
-                <input type="email" id="email" name="email" placeholder="Email">
-            </div>
-            <input type="submit" value="Submit Feedback">
-        </form>
-    </div>
     <script src="script.js"></script>
     <script type="text/javascript" src="//delivery.r2b2.io/get/sedevs.netlify.app/generic/sticky"></script>
 <footer>
