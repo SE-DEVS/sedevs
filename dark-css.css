@@ -20,6 +20,10 @@ body {
     animation: bgSlideshow 10s infinite;
 }
 
+a{
+    color: white;
+}
+
 @keyframes bgSlideshow {
     0%, 33% {
         background: url('images/sd.jpg') no-repeat center center/cover;
