@@ -442,3 +442,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #0069d9;
 }
+
+.btn-primary{
+    margin: 10px;
+}
