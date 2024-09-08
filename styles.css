@@ -408,7 +408,7 @@ h1 {
     cursor: pointer;
     background-color: transparent;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 0px;
     border: none;
     margin-right:10%;
 }
