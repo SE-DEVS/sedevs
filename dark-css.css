@@ -396,8 +396,9 @@ p {
     cursor: pointer;
     background-color: #007bff;
     color: white;
-    padding: 10px 5px;
+    padding: 15px 15px;
     border: none;
+     border-radius: 10px;
 }
 
 .openbtn:hover {
