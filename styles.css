@@ -350,6 +350,15 @@ p {
     animation: pulse 2s infinite;
 }
 
+.top{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    margin: auto;
+    padding: auto;
+    z-index: 4;
+}
+
 h5{
     margin: auto;
     padding: auto;
