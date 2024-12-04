@@ -156,6 +156,7 @@ main {
     background-color: transparent;
 }
 
+
 h1, h2 {
     color: #1E88E5;
     text-align: center;
@@ -163,7 +164,7 @@ h1, h2 {
     animation: swing 1s 10%;
 }
 
-h6 {
+h6,h5 {
     color: #76FF03;
     margin-bottom: 15px;
     animation: typing 2s steps(20, end);
@@ -418,5 +419,59 @@ p {
 }
 
 a{
-    color: white;
+    color: 76FF03;
+}
+.how-we-work, .our-clients {
+    color: #76FF03;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.work-steps, .clients-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.step, .client-logo {
+    flex: 1 1 calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.step h5, .client-logo p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.client-logo img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.service-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-buttons .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+section {
+    padding: 50px 20px;
+    margin-top: 20px;
+}
+html {
+    scroll-behavior: smooth;
 }

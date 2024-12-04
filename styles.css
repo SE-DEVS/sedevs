@@ -14,10 +14,22 @@ body {
 
 .hero {
     position: relative;
-    background: url('images/sd1.jpg') no-repeat center center/cover;
+    background: url('images/sd.jpg') no-repeat center center/cover;
     text-align: center;
     padding: 100px 20px;
     animation: bgSlideshow 10s infinite;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    opacity: 0.5; /* Adjust the opacity as needed */
+    pointer-events: none; /* Ensures the pseudo-element doesn't interfere with interactions */
 }
 
 @keyframes bgSlideshow {
@@ -428,4 +440,58 @@ h1 {
 #main {
     transition: margin-left 0.5s;
     padding: 16px;
+}
+.how-we-work, .our-clients {
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.work-steps, .clients-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.step, .client-logo {
+    flex: 1 1 calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.step h5, .client-logo p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.client-logo img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.service-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-buttons .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+section {
+    padding: 50px 20px;
+    margin-top: 20px;
+}
+html {
+    scroll-behavior: smooth;
 }

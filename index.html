@@ -14,11 +14,12 @@
 
     <div class="hero">
     <nav class="top">
-    <div class="container-fluid">
-        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+    <div class="container-fluid" >
+        <section style="display: flex;align-items: center;">
+        <button class="openbtn" onclick="openNav()">☰ Menu</button><br>
       <script src="theme.js"></script>
 
-      <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()"> M o d e</i><br>
+      <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()" style="position: fixed;right: 50px;"> M o d e</i><br>
       <!-- Add the Font Awesome library in the head section -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 <div id="mySidebar" class="sidebar">
@@ -51,15 +52,15 @@
         <i class="fas fa-envelope"></i> Mail
     </a>
 </div>
+</section>
 </div>
-  </nav>
+  </nav><img src="S.png" alt="Parkar Eye Clinics" height="100" style="border-radius: 100%;">
   <div class="hero-content">
-<header>
+    <header>
     <a href="cal.html" class="btn btn-warning"> Estimate Your Project Rate </a>
     <a href="https://wa.me/917249785423" class="btn btn-success"> Get Your Free Demo Now </a>
   </header>
-
-        <h1 id="welcome">Welcome to <br> SE Software & Web Developers<br>Our Services</h1>
+        <h2 id="welcome">Welcome to <br> SE Software & Web Developers<br>Our Services</h2>
         <p id="slogan"> </p>
         <div class="d-grid gap-2 col-12 mx-auto">
             <a href="https://wa.me/917249785423" class="btn btn-success"> Get Your Free Demo Now </a>
@@ -67,8 +68,82 @@
     </div>
 </div>
 
+<div class="our-services">
+    <a class="nav-link" href="#" title="Our Services"><h2>Our Services</h2></a>
+    <div class="service-buttons">
+        <button class="btn btn-primary" onclick="location.href='#websites-section'">Websites</button>
+        <button class="btn btn-primary" onclick="location.href='#apps-section'">Apps</button>
+        <button class="btn btn-primary" onclick="location.href='#software-section'">Customized Softwares</button>
+        <button class="btn btn-primary" onclick="location.href='#advertising-section'">Social Media Advertising</button>
+    </div>
+</div>
+
+<div class="how-we-work">
+    <a class="nav-link" href="#" title="How We Work"><h2>How We Work</h2></a>
+    <div class="work-steps">
+        <div class="step">
+            <h5>1. Requirement Analysis</h5>
+            <p>We gather detailed requirements to ensure your vision is fully understood.</p>
+        </div>
+        <div class="step">
+            <h5>2. Planning</h5>
+            <p>Our team drafts a plan to structure your project for efficient execution.</p>
+        </div>
+        <div class="step">
+            <h5>3. Development</h5>
+            <p>We bring your ideas to life with modern technologies and best practices.</p>
+        </div>
+        <div class="step">
+            <h5>4. Testing</h5>
+            <p>Our QA process ensures a smooth and bug-free experience for end users.</p>
+        </div>
+        <div class="step">
+            <h5>5. Deployment</h5>
+            <p>We deploy your project with scalability and performance in mind.</p>
+        </div>
+        <div class="step">
+            <h5>6. Support & Maintenance</h5>
+            <p>We provide ongoing support to keep your project up-to-date and efficient.</p>
+        </div>
+    </div>
+</div>
+
+<div class="our-clients">
+    <a class="nav-link" href="#" title="Our Clients"><h2>Our Clients</h2></a>
+    <div class="clients-logos">
+        
+        <div class="client-logo">
+            <img src="images/parkareyeclinics.png" alt="Parkar Eye Clinics">
+            <p>Parkar Eye Clinics</p>
+        </div>
+        <div class="client-logo">
+            <img src="images/softlinetravelservices.png" alt="Softline Travel Services">
+            <p>Softline Travel Services</p>
+        </div>
+        <div class="client-logo">
+            <img src="images/foodsboxdelivery.png" alt="Foods Box Delivery">
+            <p>Foods Box Delivery</p>
+        </div>
+        <div class="client-logo">
+            <img src="images/hamdulefrozenfoods.png" alt="Hamdule Frozen Foods">
+            <p>Hamdule Frozen Foods</p>
+        </div>
+        <div class="client-logo">
+            <img src="images/kokankirana.png" alt="Kokan Kirana Stores">
+            <p>Kokan Kirana Stores</p>
+        </div>
+        
+    </div>
+</div>
+
     <a class="nav-link" href="portfolio.html" title="Portfolio"><h2>Our Work</h2></a>
+    <section id="websites-section"><a class="nav-link" href="portfolio.html" title="Portfolio"><h2>Websites By Us</h2></a>
     <div class="portfolio">
+        <div class="portfolio-item"><a href="https://parkareyeclinics.com" >
+            <h6>Parkar Eye Clinics</h6>
+            <img src="images/parkareyeclinics.png" alt="Parkar Eye Clinics"></a>
+            <p>A website for a chain of eye clinics.</p>
+        </div>
         <div class="portfolio-item"><a href="https://hamdulefrozenfoods.wordpress.com" >
             <h6>Hamdule Frozen Foods</h6>
             <img src="images/hamdulefrozenfoods.png" alt="Hamdule Frozen Foods"></a>
@@ -90,13 +165,9 @@
             <img src="images/foodsboxdelivery.png" alt="Foods Box Delivery"></a>
             <p>A food delivery service portal.</p>
         </div>
-        <div class="portfolio-item"><a href="https://parkareyeclinics.com" >
-            <h6>Parkar Eye Clinics</h6>
-            <img src="images/parkareyeclinics.png" alt="Parkar Eye Clinics"></a>
-            <p>A website for a chain of eye clinics.</p>
-        </div>
-    </div>
-
+        
+    </div></section>
+    <section id="software-section">
     <a class="nav-link" href="portfolio.html" title="Portfolio"><h2>Software Developed by Us</h2></a>
     <div class="portfolio">
         <div class="portfolio-item">
@@ -115,8 +186,8 @@
             <h6>Stationery System</h6>
             <img src="images/stationary.png" alt="Stationery & Office Store">
         </div>
-    </div>
-
+    </div></section>
+    <section id="apps-section">
     <a class="nav-link" href="portfolio.html" title="Portfolio"><h2>Android Apps</h2></a>
     <div class="portfolio">
         <div class="portfolio-item"><img src="images/fbd.jpg" alt="Foods Box Delivery">
@@ -131,7 +202,7 @@
         <div class="portfolio-item"><img src="images/2048.png" alt="2048 Game">
             <h6>2048 Game</h6>
         </div>
-    </div>
+    </div></section><section id="advertising-section"></section>
 </div>
     <script src="script.js"></script>
 <footer>
