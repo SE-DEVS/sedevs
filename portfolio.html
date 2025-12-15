@@ -3,91 +3,847 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Portfolio - SE Software & Web Developers</title>
+    <title>Our Portfolio - SE Software & Web Developers | Showcase of Our Work</title>
+    <meta name="description" content="View our portfolio of successful projects including websites, mobile apps, software solutions, and digital marketing campaigns.">
+    <meta name="keywords" content="portfolio, web development projects, mobile apps, software projects, case studies">
+    <meta name="author" content="SE Software & Web Developers">
     <link id="theme-link" rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="S.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  </head>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Portfolio Projects",
+      "description": "Collection of web development and software projects",
+      "numberOfItems": "8",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebSite",
+            "name": "Parkar Eye Clinics",
+            "url": "https://parkareyeclinics.com"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "WebSite",
+            "name": "Foods Box Delivery",
+            "url": "https://foodsboxdelivery.com"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
 <body>
-    <center>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
     <nav class="navbar navbar-lg bg-lg sticky-top">
         <div class="container-fluid">
-          <h2>
-            <a class="navbar-brand" href="index.html" title="SE Software & Web Developers">
-              <img src="S.png" alt="Logo" width="10%" height="auto">
+            <h2>
+                <a class="navbar-brand" href="index.html" title="SE Software & Web Developers">
+                    <img src="S.png" alt="SE Software & Web Developers Logo" width="60" height="60">
+                </a>
+                SE Software & Web Developers
+            </h2>
+            <script src="theme.js"></script>
+            <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()" title="Toggle Theme"></i><br>
+            <a href="https://www.linkedin.com/company/se-software-web-developers/" class="btn btn-primary" title="Connect on LinkedIn">
+                <i class="fab fa-linkedin"></i>
             </a>
-            SE Software & Web Developers
-          </h2><script src="theme.js"></script>
-          <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()"></i><br>
-          <a href="https://www.linkedin.com/company/se-software-web-developers/" class="btn btn-primary"> LinkedIn </a>
-          <a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-primary"> GitHub </a>
-            <a href="https://wa.me/917249785423" class="btn btn-primary"> WhatsApp </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
-            <a class="nav-link" href="about.html" title="About us">About us</a>
-            <a class="nav-link" href="services.html" title="Services">Services</a>
-            <a class="nav-link" href="portfolio.html" title="Portfolio">Portfolio</a>
-      </div>
+            <a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-primary" title="View GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/917249785423" class="btn btn-primary" title="Message on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <a class="nav-link" href="index.html" title="Home">Home</a>
+                <a class="nav-link" href="about.html" title="About us">About us</a>
+                <a class="nav-link" href="services.html" title="Our Services">Services</a>
+                <a class="nav-link active" href="portfolio.html" title="Our Portfolio">Portfolio</a>
+                <a class="nav-link" href="cal.html" title="Project Calculator">
+                    <i class="fas fa-calculator"></i> Calculator
+                </a>
+            </div>
         </div>
-      </nav>
-      <header>
-        <a href="https://wa.me/917249785423" class="btn btn-success"> Get Your Free Demo Now </a>
-        <h5>📞 7249785423  hamduleshamsuddin@gmail.com </h5>
-        </header>
-
+    </nav>
+    
+    <header class="text-center py-4">
+        <a href="https://wa.me/917249785423" class="btn btn-success btn-lg mb-3" title="Discuss Your Project">
+            <i class="fab fa-whatsapp"></i> Discuss Your Project
+        </a>
+        <h5 class="text-white bg-dark p-3 rounded d-inline-block">
+            <i class="fas fa-phone"></i> 7249785423 
+            <i class="fas fa-envelope ms-3"></i> hamduleshamsuddin@gmail.com
+        </h5>
+    </header>
 
     <main>
-            <div class="container">
-                <h1>Our Portfolio</h1>
-                <p>Take a look at some of the projects we have successfully delivered to our clients. We are proud of our work and the results we have achieved.</p>
-                
-                <div class="portfolio-item">
-                    <h2>Hamdule Frozen Foods</h2>
-                    <img src="images/hamdulefrozenfoods.png" alt="Hamdule Frozen Foods">
-                    <p>A WordPress-based website designed for Hamdule Frozen Foods, showcasing their wide range of products and services.</p>
-                    <a href="https://hamdulefrozenfoods.wordpress.com" target="_blank">Visit Website</a>
-                </div>
-                
-                <div class="portfolio-item">
-                    <h2>Softline Travel Services</h2>
-                    <img src="images/softlinetravelservices.png" alt="Softline Travel Services">
-                    <p>A custom-built website for Softline Travel Services, offering comprehensive travel solutions and booking options.</p>
-                    <a href="https://softlinetravelservices.co.in" target="_blank">Visit Website</a>
-                </div>
-                
-                <div class="portfolio-item">
-                    <h2>Kokan Kirana and General Stores</h2>
-                    <img src="images/kokankirana.png" alt="Kokan Kirana and General Stores">
-                    <p>An e-commerce platform for Kokan Kirana and General Stores, facilitating online grocery shopping and delivery.</p>
-                    <a href="https://kokan-kirana-and-general-stores.jimdosite.com" target="_blank">Visit Website</a>
-                </div>
-
-                <div class="portfolio-item">
-                    <h2>Foods Box Delivery</h2>
-                    <img src="images/foodsboxdelivery.png" alt="Foods Box Delivery">
-                    <p>A feature-rich website and mobile app for Foods Box Delivery, enabling users to order food online with ease.</p>
-                    <a href="https://foodsboxdelivery.com" target="_blank">Visit Website</a>
-                </div>
-
-                <div class="portfolio-item">
-                    <h2>Parkar Eye Clinics</h2>
-                    <img src="images/parkareyeclinics.png" alt="Parkar Eye Clinics">
-                    <p>A professional website for Parkar Eye Clinics, providing information on services, doctors, and booking appointments online.</p>
-                    <a href="https://parkareyeclinics.com" target="_blank">Visit Website</a>
+        <div class="container py-5">
+            <h1 class="text-center mb-5">Our Portfolio</h1>
+            <p class="lead text-center mb-5">Take a look at some of the projects we have successfully delivered to our clients. We are proud of our work and the results we have achieved.</p>
+            
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters text-center mb-5">
+                <div class="btn-group flex-wrap" role="group">
+                    <button type="button" class="btn btn-outline-primary active" data-filter="all">All Projects</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="website">Websites</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="app">Mobile Apps</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="software">Software</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="marketing">Digital Marketing</button>
                 </div>
             </div>
+
+            <!-- Websites Section -->
+            <section class="portfolio-section mb-5" id="websites">
+                <h2 class="text-center mb-4">Website Development Projects</h2>
+                <p class="text-center mb-5">Responsive and user-friendly websites built with modern technologies</p>
+                
+                <div class="row g-4">
+                    <!-- Parkar Eye Clinics -->
+                    <div class="col-lg-4 col-md-6" data-category="website">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/parkareyeclinics.png" alt="Parkar Eye Clinics Website" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <a href="https://parkareyeclinics.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-external-link-alt"></i> Visit Site
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Parkar Eye Clinics</h3>
+                                <p class="text-muted mb-3">A professional healthcare website for a chain of eye clinics with appointment booking system and doctor profiles.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-primary">WordPress</span>
+                                    <span class="badge bg-primary">Responsive</span>
+                                    <span class="badge bg-primary">Booking System</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>3 Weeks</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-layer-group"></i>
+                                        <span>12 Pages</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foods Box Delivery -->
+                    <div class="col-lg-4 col-md-6" data-category="website">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/foodsboxdelivery.png" alt="Foods Box Delivery Website" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <a href="https://foodsboxdelivery.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-external-link-alt"></i> Visit Site
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Foods Box Delivery</h3>
+                                <p class="text-muted mb-3">A complete food delivery service portal with online ordering, payment integration, and real-time tracking.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-primary">E-commerce</span>
+                                    <span class="badge bg-primary">Payment Gateway</span>
+                                    <span class="badge bg-primary">Mobile First</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>4 Weeks</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Order System</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hamdule Frozen Foods -->
+                    <div class="col-lg-4 col-md-6" data-category="website">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/hamdulefrozenfoods.png" alt="Hamdule Frozen Foods Website" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <a href="https://hamdulefrozenfoods.wordpress.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-external-link-alt"></i> Visit Site
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Hamdule Frozen Foods</h3>
+                                <p class="text-muted mb-3">A dynamic website for a frozen foods company showcasing products, services, and contact information.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-primary">WordPress</span>
+                                    <span class="badge bg-primary">Product Catalog</span>
+                                    <span class="badge bg-primary">Contact Forms</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>2 Weeks</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-box"></i>
+                                        <span>50+ Products</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Softline Travel Services -->
+                    <div class="col-lg-4 col-md-6" data-category="website">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/softlinetravelservices.png" alt="Softline Travel Services Website" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <a href="http://softlinetravelservices.co.in" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-external-link-alt"></i> Visit Site
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Softline Travel Services</h3>
+                                <p class="text-muted mb-3">A comprehensive travel service website offering booking options, travel packages, and inquiry system.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-primary">Travel Portal</span>
+                                    <span class="badge bg-primary">Booking System</span>
+                                    <span class="badge bg-primary">Responsive</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>3 Weeks</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-plane"></i>
+                                        <span>Travel Packages</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kokan Kirana Store -->
+                    <div class="col-lg-4 col-md-6" data-category="website">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/kokankirana.png" alt="Kokan Kirana Store Website" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <a href="https://kokan-kirana-and-general-stores.jimdosite.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-external-link-alt"></i> Visit Site
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Kokan Kirana Store</h3>
+                                <p class="text-muted mb-3">An e-commerce platform for groceries and general items with online ordering and delivery tracking.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-primary">E-commerce</span>
+                                    <span class="badge bg-primary">Grocery Store</span>
+                                    <span class="badge bg-primary">Delivery System</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>2.5 Weeks</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-store"></i>
+                                        <span>Online Store</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mobile Apps Section -->
+            <section class="portfolio-section mb-5" id="mobile-apps">
+                <h2 class="text-center mb-4">Mobile App Development</h2>
+                <p class="text-center mb-5">Native and cross-platform mobile applications for various business needs</p>
+                
+                <div class="row g-4">
+                    <!-- Foods Box Delivery App -->
+                    <div class="col-lg-4 col-md-6" data-category="app">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/fbd.jpg" alt="Foods Box Delivery Mobile App" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#appModal1">
+                                        <i class="fas fa-search-plus"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Foods Box Delivery App</h3>
+                                <p class="text-muted mb-3">Food delivery mobile application with real-time order tracking, payment integration, and push notifications.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-success">Android</span>
+                                    <span class="badge bg-success">Firebase</span>
+                                    <span class="badge bg-success">Payment Gateway</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>Android App</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-users"></i>
+                                        <span>500+ Users</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Parkar Eye Clinics App -->
+                    <div class="col-lg-4 col-md-6" data-category="app">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/PEC.jpg" alt="Parkar Eye Clinics Mobile App" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#appModal2">
+                                        <i class="fas fa-search-plus"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Parkar Eye Clinics App</h3>
+                                <p class="text-muted mb-3">Healthcare application for appointment booking, doctor consultations, and medical records access.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-success">Android</span>
+                                    <span class="badge bg-success">Healthcare</span>
+                                    <span class="badge bg-success">Appointment System</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>Android App</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-calendar-check"></i>
+                                        <span>Appointment Booking</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Word Search Puzzle -->
+                    <div class="col-lg-4 col-md-6" data-category="app">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/Puzzle.jpg" alt="Word Search Puzzle Game" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#appModal3">
+                                        <i class="fas fa-search-plus"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Word Search Puzzle Game</h3>
+                                <p class="text-muted mb-3">Educational word search game with multiple difficulty levels and thousands of word puzzles.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-success">Android</span>
+                                    <span class="badge bg-success">Game</span>
+                                    <span class="badge bg-success">Educational</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>Android App</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-gamepad"></i>
+                                        <span>Puzzle Game</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2048 Game -->
+                    <div class="col-lg-4 col-md-6" data-category="app">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/2048.png" alt="2048 Game App" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#appModal4">
+                                        <i class="fas fa-search-plus"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>2048 Puzzle Game</h3>
+                                <p class="text-muted mb-3">Popular puzzle game with smooth animations, score tracking, and multiple game modes.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-success">Android</span>
+                                    <span class="badge bg-success">Game</span>
+                                    <span class="badge bg-success">Puzzle</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>Android App</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-trophy"></i>
+                                        <span>Score System</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Software Solutions Section -->
+            <section class="portfolio-section mb-5" id="software">
+                <h2 class="text-center mb-4">Custom Software Solutions</h2>
+                <p class="text-center mb-5">Tailored software solutions for specific business requirements</p>
+                
+                <div class="row g-4">
+                    <!-- Fast Food Management -->
+                    <div class="col-lg-4 col-md-6" data-category="software">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/ffm.jpg" alt="Fast Food Management System" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#softwareModal1">
+                                        <i class="fas fa-search-plus"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Fast Food Management</h3>
+                                <p class="text-muted mb-3">Complete restaurant management system with inventory control, billing, and reporting features.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-info">Desktop Software</span>
+                                    <span class="badge bg-info">Inventory</span>
+                                    <span class="badge bg-info">Billing System</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-utensils"></i>
+                                        <span>Restaurant</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-chart-bar"></i>
+                                        <span>Reports</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Weighbridge Management -->
+                    <div class="col-lg-4 col-md-6" data-category="software">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/wm.jpg" alt="Weighbridge Management System" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#softwareModal2">
+                                        <i class="fas fa-search-plus"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Weighbridge Management</h3>
+                                <p class="text-muted mb-3">Automated weighbridge system with ticket generation, database management, and reporting.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-info">Desktop Software</span>
+                                    <span class="badge bg-info">Automation</span>
+                                    <span class="badge bg-info">Database</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-weight"></i>
+                                        <span>Weighbridge</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-ticket-alt"></i>
+                                        <span>Ticket System</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Food Ordering Portal -->
+                    <div class="col-lg-4 col-md-6" data-category="software">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/fo.jpg" alt="Food Ordering System" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#softwareModal3">
+                                        <i class="fas fa-search-plus"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Food Ordering System</h3>
+                                <p class="text-muted mb-3">Online food ordering portal with menu management, order processing, and delivery tracking.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-info">Web Application</span>
+                                    <span class="badge bg-info">Order System</span>
+                                    <span class="badge bg-info">Real-time</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Ordering</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-truck"></i>
+                                        <span>Delivery</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stationery System -->
+                    <div class="col-lg-4 col-md-6" data-category="software">
+                        <div class="portfolio-card h-100">
+                            <div class="portfolio-image">
+                                <img src="images/stationary.png" alt="Stationery Management System" class="img-fluid" loading="lazy">
+                                <div class="portfolio-overlay">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#softwareModal4">
+                                        <i class="fas fa-search-plus"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-content p-4">
+                                <h3>Stationery Management</h3>
+                                <p class="text-muted mb-3">Inventory and sales management system for stationery and office supplies store.</p>
+                                <div class="portfolio-tags">
+                                    <span class="badge bg-info">Desktop Software</span>
+                                    <span class="badge bg-info">Inventory</span>
+                                    <span class="badge bg-info">Sales</span>
+                                </div>
+                                <div class="portfolio-stats mt-3">
+                                    <div class="stat">
+                                        <i class="fas fa-store"></i>
+                                        <span>Retail</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-boxes"></i>
+                                        <span>Inventory</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Client Testimonials -->
+            <section class="testimonials mb-5">
+                <h2 class="text-center mb-5">What Our Clients Say</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="testimonial-content">
+                                <p>"SE Software delivered our website on time and exceeded our expectations. The team was professional and responsive throughout the project."</p>
+                            </div>
+                            <div class="testimonial-author mt-4">
+                                <h5>Parkar Eye Clinics</h5>
+                                <p class="text-muted">Healthcare Industry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="testimonial-content">
+                                <p>"The mobile app they developed for our food delivery business has significantly increased our orders. Excellent work and great support!"</p>
+                            </div>
+                            <div class="testimonial-author mt-4">
+                                <h5>Foods Box Delivery</h5>
+                                <p class="text-muted">Food Delivery Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="testimonial-content">
+                                <p>"Professional team, excellent communication, and outstanding results. Our travel business has grown significantly since launching our website."</p>
+                            </div>
+                            <div class="testimonial-author mt-4">
+                                <h5>Softline Travel Services</h5>
+                                <p class="text-muted">Travel Industry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <div class="cta-section text-center py-5">
+                <h2 class="mb-4">Want Similar Results for Your Business?</h2>
+                <p class="mb-4">Let's discuss your project requirements and create something amazing together.</p>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <a href="https://wa.me/917249785423" class="btn btn-success btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Start a Conversation
+                    </a>
+                    <a href="cal.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-calculator"></i> Estimate Your Project
+                    </a>
+                    <a href="mailto:hamduleshamsuddin@gmail.com" class="btn btn-warning btn-lg">
+                        <i class="fas fa-envelope"></i> Send Requirements
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <h5>📞 7249785423  hamduleshamsuddin@gmail.com </h5><br>
-    
-        <p>&copy; 2024 SE Software & Web Developers. All Rights Reserved.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-phone"></i> +91 7249785423</p>
+                    <p><i class="fas fa-envelope"></i> hamduleshamsuddin@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sun: 9:00 AM - 8:00 PM</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="portfolio.html">Portfolio</a></p>
+                    <p><a href="cal.html">Cost Calculator</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <p>
+                        <a href="https://www.linkedin.com/company/se-software-web-developers/" title="LinkedIn" class="me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/Shamsuddin-Hamdule" title="GitHub" class="me-3"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="https://wa.me/917249785423" title="WhatsApp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    </p>
+                </div>
+            </div>
+            
+            <hr style="border-color: rgba(255,255,255,0.1); margin: 30px 0;">
+            
+            <p class="text-center">Developed & Maintained By SE Software & Web Developers</p>
+            <p class="text-center">&copy; 2024 SE Software & Web Developers. All Rights Reserved.</p>
+        </div>
     </footer>
+
+    <style>
+        .portfolio-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .portfolio-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .portfolio-image {
+            position: relative;
+            overflow: hidden;
+            height: 250px;
+        }
+        
+        .portfolio-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .portfolio-card:hover .portfolio-image img {
+            transform: scale(1.05);
+        }
+        
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .portfolio-card:hover .portfolio-overlay {
+            opacity: 1;
+        }
+        
+        .portfolio-content {
+            padding: 25px;
+        }
+        
+        .portfolio-tags {
+            margin-top: 15px;
+        }
+        
+        .portfolio-tags .badge {
+            margin-right: 5px;
+            margin-bottom: 5px;
+            font-size: 0.8em;
+            padding: 5px 10px;
+        }
+        
+        .portfolio-stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .stat i {
+            color: #1E88E5;
+        }
+        
+        .portfolio-filters {
+            margin-bottom: 40px;
+        }
+        
+        .portfolio-filters .btn {
+            margin: 5px;
+        }
+        
+        .portfolio-filters .btn.active {
+            background-color: #1E88E5;
+            color: white;
+        }
+        
+        .testimonial-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-left: 4px solid #1E88E5;
+        }
+        
+        .testimonial-content {
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .testimonial-content::before {
+            content: '"';
+            position: absolute;
+            left: 0;
+            top: -10px;
+            font-size: 40px;
+            color: #1E88E5;
+            opacity: 0.3;
+        }
+        
+        .testimonial-author h5 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .portfolio-image {
+                height: 200px;
+            }
+            
+            .portfolio-filters .btn-group {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .portfolio-filters .btn {
+                width: 200px;
+                margin: 5px 0;
+            }
+        }
+    </style>
+
+    <script>
+        // Portfolio filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.portfolio-filters .btn');
+            const portfolioItems = document.querySelectorAll('[data-category]');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Show/hide portfolio items based on filter
+                    portfolioItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 80,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
