@@ -3,67 +3,628 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - SE Software & Web Developers</title>
+    <title>About Us - SE Software & Web Developers | Our Story & Team</title>
+    <meta name="description" content="Learn about SE Software & Web Developers - our history, mission, team, and commitment to delivering exceptional digital solutions.">
+    <meta name="keywords" content="about us, company history, team, mission, vision, values">
+    <meta name="author" content="SE Software & Web Developers">
     <link id="theme-link" rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="S.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  </head>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SE Software & Web Developers",
+      "description": "Professional web and software development company",
+      "url": "https://yourdomain.com",
+      "logo": "https://yourdomain.com/S.png",
+      "foundingDate": "2024",
+      "founders": [{
+        "@type": "Person",
+        "name": "Shamsuddin Hamdule"
+      }],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+917249785423",
+        "contactType": "customer service",
+        "email": "hamduleshamsuddin@gmail.com",
+        "availableLanguage": ["English", "Hindi"]
+      }
+    }
+    </script>
+</head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
     <nav class="navbar navbar-lg bg-lg sticky-top">
         <div class="container-fluid">
-          <h2>
-            <a class="navbar-brand" href="index.html" title="SE Software & Web Developers">
-              <img src="S.png" alt="Logo" width="10%" height="auto">
-            </a>
-            SE Software & Web Developers
+            <h2>
+                <a class="navbar-brand" href="index.html" title="SE Software & Web Developers">
+                    <img src="S.png" alt="SE Software & Web Developers Logo" width="60" height="60">
+                </a>
+                SE Software & Web Developers
             </h2>
             <script src="theme.js"></script>
-            <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()"></i><br>
-          <a href="https://www.linkedin.com/company/se-software-web-developers/" class="btn btn-primary"> LinkedIn </a>
-          <a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-primary"> GitHub </a>
-            <a href="https://wa.me/917249785423" class="btn btn-primary"> WhatsApp </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
-            <a class="nav-link" href="about.html" title="About us">About us</a>
-            <a class="nav-link" href="services.html" title="Services">Services</a>
-            <a class="nav-link" href="portfolio.html" title="Portfolio">Portfolio</a>
-      </div>
+            <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()" title="Toggle Theme"></i><br>
+            <a href="https://www.linkedin.com/company/se-software-web-developers/" class="btn btn-primary" title="Connect on LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-primary" title="View GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/917249785423" class="btn btn-primary" title="Message on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <a class="nav-link" href="index.html" title="Home">Home</a>
+                <a class="nav-link active" href="about.html" title="About us">About us</a>
+                <a class="nav-link" href="services.html" title="Our Services">Services</a>
+                <a class="nav-link" href="portfolio.html" title="Our Portfolio">Portfolio</a>
+                <a class="nav-link" href="cal.html" title="Project Calculator">
+                    <i class="fas fa-calculator"></i> Calculator
+                </a>
+            </div>
         </div>
-      </nav>
-      <header>
-        <a href="https://wa.me/917249785423" class="btn btn-success"> Get Your Free Demo Now </a>
-        <h5>📞 7249785423  hamduleshamsuddin@gmail.com </h5>
-        </header>
+    </nav>
+    
+    <header class="text-center py-4">
+        <a href="https://wa.me/917249785423" class="btn btn-success btn-lg mb-3" title="Contact Us">
+            <i class="fab fa-whatsapp"></i> Connect With Us
+        </a>
+        <h5 class="text-white bg-dark p-3 rounded d-inline-block">
+            <i class="fas fa-phone"></i> 7249785423 
+            <i class="fas fa-envelope ms-3"></i> hamduleshamsuddin@gmail.com
+        </h5>
+    </header>
 
     <main>
-        <section class="about-us">
-            <div class="container">
-                <h1>About Us</h1>
-                <li>Welcome to SE Software & Web Developers! We are a leading software and web development company dedicated to providing top-notch solutions for businesses of all sizes.</li>
+        <div class="container py-5">
+            <!-- Hero Section -->
+            <section class="about-hero text-center mb-5">
+                <h1 class="display-4 mb-4">About SE Software & Web Developers</h1>
+                <p class="lead mb-4">Transforming businesses through innovative digital solutions since 2024</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="stats-card p-4">
+                            <div class="row text-center">
+                                <div class="col-md-3 col-6 mb-3">
+                                    <div class="stat-number">50+</div>
+                                    <div class="stat-label">Projects</div>
+                                </div>
+                                <div class="col-md-3 col-6 mb-3">
+                                    <div class="stat-number">100%</div>
+                                    <div class="stat-label">Client Satisfaction</div>
+                                </div>
+                                <div class="col-md-3 col-6 mb-3">
+                                    <div class="stat-number">24/7</div>
+                                    <div class="stat-label">Support</div>
+                                </div>
+                                <div class="col-md-3 col-6 mb-3">
+                                    <div class="stat-number">5+</div>
+                                    <div class="stat-label">Industries Served</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Story -->
+            <section class="about-story mb-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="images/about-story.jpg" alt="Our Story" class="img-fluid rounded" loading="lazy" onerror="this.src='https://via.placeholder.com/600x400/667eea/ffffff?text=Our+Story'">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="mb-4">Our Story</h2>
+                        <p class="lead mb-4">Founded in 2024, SE Software & Web Developers began with a simple vision: to make quality digital solutions accessible to businesses of all sizes.</p>
+                        <p>What started as a small team of passionate developers has grown into a reputable company known for delivering exceptional results. We've helped numerous businesses establish their online presence, streamline operations, and achieve digital transformation.</p>
+                        <p>Our journey has been fueled by our commitment to innovation, quality, and customer satisfaction. We believe in building long-term relationships with our clients, understanding their unique needs, and delivering solutions that drive real business value.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mission & Vision -->
+            <section class="mission-vision mb-5 py-5">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card h-100 p-4">
+                            <div class="text-center mb-4">
+                                <i class="fas fa-bullseye fa-3x" style="color: #1E88E5;"></i>
+                            </div>
+                            <h3 class="text-center mb-4">Our Mission</h3>
+                            <p class="text-center">To empower businesses with innovative software and web solutions that drive growth, efficiency, and success in the digital age.</p>
+                            <ul class="mt-4">
+                                <li>Deliver exceptional quality in every project</li>
+                                <li>Provide reliable and scalable solutions</li>
+                                <li>Ensure client satisfaction through transparent communication</li>
+                                <li>Stay ahead with cutting-edge technologies</li>
+                                <li>Make digital transformation accessible to all businesses</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card h-100 p-4">
+                            <div class="text-center mb-4">
+                                <i class="fas fa-eye fa-3x" style="color: #1E88E5;"></i>
+                            </div>
+                            <h3 class="text-center mb-4">Our Vision</h3>
+                            <p class="text-center">To be the most trusted digital solutions partner for businesses worldwide, recognized for innovation, quality, and exceptional service.</p>
+                            <ul class="mt-4">
+                                <li>Lead in digital innovation and technology</li>
+                                <li>Build lasting partnerships with our clients</li>
+                                <li>Create solutions that make a positive impact</li>
+                                <li>Expand our reach to serve businesses globally</li>
+                                <li>Foster a culture of continuous learning and improvement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Values -->
+            <section class="values-section mb-5">
+                <h2 class="text-center mb-5">Our Core Values</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="value-card text-center p-4 h-100">
+                            <div class="value-icon mb-3">
+                                <i class="fas fa-handshake fa-2x"></i>
+                            </div>
+                            <h4>Integrity</h4>
+                            <p>We believe in honesty, transparency, and doing the right thing. Our clients trust us because we deliver what we promise.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="value-card text-center p-4 h-100">
+                            <div class="value-icon mb-3">
+                                <i class="fas fa-lightbulb fa-2x"></i>
+                            </div>
+                            <h4>Innovation</h4>
+                            <p>We constantly explore new technologies and approaches to provide cutting-edge solutions that give our clients a competitive edge.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="value-card text-center p-4 h-100">
+                            <div class="value-icon mb-3">
+                                <i class="fas fa-users fa-2x"></i>
+                            </div>
+                            <h4>Collaboration</h4>
+                            <p>We work closely with our clients, understanding their vision and involving them throughout the development process.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="value-card text-center p-4 h-100">
+                            <div class="value-icon mb-3">
+                                <i class="fas fa-trophy fa-2x"></i>
+                            </div>
+                            <h4>Excellence</h4>
+                            <p>We strive for excellence in everything we do, from initial consultation to final delivery and ongoing support.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="value-card text-center p-4 h-100">
+                            <div class="value-icon mb-3">
+                                <i class="fas fa-heart fa-2x"></i>
+                            </div>
+                            <h4>Passion</h4>
+                            <p>We love what we do. Our passion for technology and problem-solving drives us to deliver exceptional results.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="value-card text-center p-4 h-100">
+                            <div class="value-icon mb-3">
+                                <i class="fas fa-clock fa-2x"></i>
+                            </div>
+                            <h4>Reliability</h4>
+                            <p>We're committed to meeting deadlines, maintaining clear communication, and providing dependable support.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="team-section mb-5">
+                <h2 class="text-center mb-5">Meet Our Team</h2>
+                <p class="text-center mb-5">Our team consists of skilled professionals who bring diverse expertise and passion to every project.</p>
                 
-                <h2>Our History</h2>
-                <li>Founded in 2024, SE Software & Web Developers has grown from a small startup to a reputable company in the industry. Our team of experienced professionals is committed to delivering high-quality projects on time and within budget.</li>
+                <div class="row justify-content-center">
+                    <!-- Team Member 1 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-card text-center p-4 h-100">
+                            <div class="team-image mb-4">
+                                <img src="images/team-member1.jpg" alt="Shamsuddin Hamdule" class="img-fluid rounded-circle" loading="lazy" onerror="this.src='https://via.placeholder.com/200/667eea/ffffff?text=SH'">
+                            </div>
+                            <h4>Shamsuddin Hamdule</h4>
+                            <p class="text-primary mb-3">Founder & Lead Developer</p>
+                            <p class="mb-4">With extensive experience in web and software development, Shamsuddin leads our technical team and ensures every project meets the highest standards.</p>
+                            <div class="team-skills">
+                                <span class="badge bg-light text-dark">Web Development</span>
+                                <span class="badge bg-light text-dark">Software Architecture</span>
+                                <span class="badge bg-light text-dark">Project Management</span>
+                            </div>
+                            <div class="team-social mt-4">
+                                <a href="https://www.linkedin.com" class="btn btn-sm btn-primary mx-1" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-sm btn-dark mx-1" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="mailto:hamduleshamsuddin@gmail.com" class="btn btn-sm btn-success mx-1" title="Email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-                <h2>Mission and Vision</h2>
-                <li>Our mission is to empower businesses with innovative software and web solutions that drive growth and success. We envision a world where technology seamlessly integrates with everyday business operations, enhancing efficiency and productivity.</li>
+                    <!-- Team Member 2 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-card text-center p-4 h-100">
+                            <div class="team-image mb-4">
+                                <img src="images/team-member2.jpg" alt="Web Developer" class="img-fluid rounded-circle" loading="lazy" onerror="this.src='https://via.placeholder.com/200/764ba2/ffffff?text=WD'">
+                            </div>
+                            <h4>Web Development Team</h4>
+                            <p class="text-primary mb-3">Frontend & Backend Developers</p>
+                            <p class="mb-4">Our web development team specializes in creating responsive, user-friendly websites using the latest technologies and best practices.</p>
+                            <div class="team-skills">
+                                <span class="badge bg-light text-dark">HTML/CSS</span>
+                                <span class="badge bg-light text-dark">JavaScript</span>
+                                <span class="badge bg-light text-dark">React</span>
+                                <span class="badge bg-light text-dark">Node.js</span>
+                            </div>
+                            <div class="team-social mt-4">
+                                <a href="https://github.com" class="btn btn-sm btn-dark mx-1" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://stackoverflow.com" class="btn btn-sm btn-warning mx-1" title="Stack Overflow">
+                                    <i class="fab fa-stack-overflow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-                <h2>Meet Our Team</h2>
-                <li>Our team consists of skilled developers, designers, and project managers who work collaboratively to ensure the success of each project. We value creativity, innovation, and excellence in everything we do.</li>
+                    <!-- Team Member 3 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-card text-center p-4 h-100">
+                            <div class="team-image mb-4">
+                                <img src="images/team-member3.jpg" alt="App Developer" class="img-fluid rounded-circle" loading="lazy" onerror="this.src='https://via.placeholder.com/200/1E88E5/ffffff?text=AD'">
+                            </div>
+                            <h4>Mobile App Team</h4>
+                            <p class="text-primary mb-3">Android & iOS Developers</p>
+                            <p class="mb-4">Our mobile development team creates high-performance applications for both Android and iOS platforms, focusing on user experience and functionality.</p>
+                            <div class="team-skills">
+                                <span class="badge bg-light text-dark">Android</span>
+                                <span class="badge bg-light text-dark">Kotlin</span>
+                                <span class="badge bg-light text-dark">Flutter</span>
+                                <span class="badge bg-light text-dark">React Native</span>
+                            </div>
+                            <div class="team-social mt-4">
+                                <a href="https://play.google.com" class="btn btn-sm btn-success mx-1" title="Google Play">
+                                    <i class="fab fa-google-play"></i>
+                                </a>
+                                <a href="https://developer.apple.com" class="btn btn-sm btn-secondary mx-1" title="Apple Developer">
+                                    <i class="fab fa-apple"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- Why Choose Us -->
+            <section class="why-choose-us mb-5 py-5">
+                <h2 class="text-center mb-5">Why Choose SE Software & Web Developers?</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="feature-card p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-star fa-2x text-warning"></i>
+                            </div>
+                            <h4>Proven Track Record</h4>
+                            <p>We have successfully delivered numerous projects across various industries, earning us a reputation for quality and reliability.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-card p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-headset fa-2x text-primary"></i>
+                            </div>
+                            <h4>Dedicated Support</h4>
+                            <p>We provide ongoing support and maintenance to ensure your digital solutions continue to perform optimally long after launch.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-card p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-bolt fa-2x text-success"></i>
+                            </div>
+                            <h4>Fast Delivery</h4>
+                            <p>We understand time is valuable. Our efficient processes and experienced team ensure timely delivery without compromising quality.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-card p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-lock fa-2x text-info"></i>
+                            </div>
+                            <h4>Secure Solutions</h4>
+                            <p>Security is our priority. We implement best practices and robust security measures to protect your data and applications.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-card p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-handshake fa-2x text-secondary"></i>
+                            </div>
+                            <h4>Client-Centric Approach</h4>
+                            <p>We work closely with you, understanding your needs and providing personalized solutions that align with your business goals.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-card p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-code-branch fa-2x text-danger"></i>
+                            </div>
+                            <h4>Modern Technology Stack</h4>
+                            <p>We use the latest technologies and frameworks to build scalable, efficient, and future-proof solutions for your business.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Client Testimonials -->
+            <section class="testimonials mb-5">
+                <h2 class="text-center mb-5">What Our Clients Say</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="testimonial-content">
+                                <p>"Working with SE Software was a game-changer for our business. Their professionalism and expertise exceeded our expectations."</p>
+                            </div>
+                            <div class="testimonial-author mt-4">
+                                <h5>Parkar Eye Clinics</h5>
+                                <p class="text-muted">Healthcare Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="testimonial-content">
+                                <p>"The team delivered our project on time and within budget. Their attention to detail and communication were excellent."</p>
+                            </div>
+                            <div class="testimonial-author mt-4">
+                                <h5>Foods Box Delivery</h5>
+                                <p class="text-muted">Food Delivery Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="testimonial-content">
+                                <p>"Exceptional service from start to finish. They understood our vision and delivered a solution that perfectly matched our needs."</p>
+                            </div>
+                            <div class="testimonial-author mt-4">
+                                <h5>Softline Travel Services</h5>
+                                <p class="text-muted">Travel Agency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <div class="cta-section text-center py-5">
+                <h2 class="mb-4">Ready to Work With Us?</h2>
+                <p class="mb-4">Let's discuss your project and create something amazing together.</p>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <a href="https://wa.me/917249785423" class="btn btn-success btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Start a Conversation
+                    </a>
+                    <a href="tel:+917249785423" class="btn btn-primary btn-lg">
+                        <i class="fas fa-phone"></i> Call Us Now
+                    </a>
+                    <a href="mailto:hamduleshamsuddin@gmail.com" class="btn btn-warning btn-lg">
+                        <i class="fas fa-envelope"></i> Send Message
+                    </a>
+                </div>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer>
-        <h5>📞 7249785423  hamduleshamsuddin@gmail.com </h5><br>
-    
-        <p>&copy; 2024 SE Software & Web Developers. All Rights Reserved.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-phone"></i> +91 7249785423</p>
+                    <p><i class="fas fa-envelope"></i> hamduleshamsuddin@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sun: 9:00 AM - 8:00 PM</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="portfolio.html">Portfolio</a></p>
+                    <p><a href="cal.html">Cost Calculator</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <p>
+                        <a href="https://www.linkedin.com/company/se-software-web-developers/" title="LinkedIn" class="me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/Shamsuddin-Hamdule" title="GitHub" class="me-3"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="https://wa.me/917249785423" title="WhatsApp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    </p>
+                </div>
+            </div>
+            
+            <hr style="border-color: rgba(255,255,255,0.1); margin: 30px 0;">
+            
+            <p class="text-center">Developed & Maintained By SE Software & Web Developers</p>
+            <p class="text-center">&copy; 2024 SE Software & Web Developers. All Rights Reserved.</p>
+        </div>
     </footer>
+
+    <style>
+        .stats-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            color: white;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .about-story img {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .mission-vision .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border: none;
+        }
+        
+        .mission-vision ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .mission-vision li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .mission-vision li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #1E88E5;
+            font-weight: bold;
+        }
+        
+        .value-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border: 1px solid #e0e0e0;
+            transition: transform 0.3s ease;
+        }
+        
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .value-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            color: white;
+        }
+        
+        .team-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border: 1px solid #e0e0e0;
+        }
+        
+        .team-image {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            border: 3px solid #667eea;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        
+        .team-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .team-skills .badge {
+            margin: 2px;
+            font-size: 0.8em;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-left: 4px solid #1E88E5;
+        }
+        
+        .testimonial-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-left: 4px solid #1E88E5;
+        }
+        
+        .testimonial-content {
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .testimonial-content::before {
+            content: '"';
+            position: absolute;
+            left: 0;
+            top: -10px;
+            font-size: 40px;
+            color: #1E88E5;
+            opacity: 0.3;
+        }
+        
+        .testimonial-author h5 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .stat-number {
+                font-size: 2em;
+            }
+            
+            .team-image {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
 </body>
 </html>
