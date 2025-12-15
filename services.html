@@ -3,99 +3,441 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - SE Software & Web Developers</title>
+    <title>Our Services - SE Software & Web Developers | Professional Development Solutions</title>
+    <meta name="description" content="Professional web development, software development, mobile apps, digital marketing, and consulting services. Comprehensive solutions for your business needs.">
+    <meta name="keywords" content="web development services, software development, mobile apps, digital marketing, consulting, custom solutions">
+    <meta name="author" content="SE Software & Web Developers">
     <link id="theme-link" rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="S.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  </head>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Web Development Services",
+      "serviceType": "Web Development",
+      "provider": {
+        "@type": "Organization",
+        "name": "SE Software & Web Developers"
+      },
+      "description": "Professional web development services including custom websites, e-commerce solutions, and web applications.",
+      "offers": {
+        "@type": "Offer",
+        "price": "5000",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+</head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
     <nav class="navbar navbar-lg bg-lg sticky-top">
         <div class="container-fluid">
-          <h2>
-            <a class="navbar-brand" href="index.html" title="SE Software & Web Developers">
-              <img src="S.png" alt="Logo" width="10%" height="auto">
+            <h2>
+                <a class="navbar-brand" href="index.html" title="SE Software & Web Developers">
+                    <img src="S.png" alt="SE Software & Web Developers Logo" width="60" height="60">
+                </a>
+                SE Software & Web Developers
+            </h2>
+            <script src="theme.js"></script>
+            <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()" title="Toggle Theme"></i><br>
+            <a href="https://www.linkedin.com/company/se-software-web-developers/" class="btn btn-primary" title="Connect on LinkedIn">
+                <i class="fab fa-linkedin"></i>
             </a>
-            SE Software & Web Developers
-          </h2><script src="theme.js"></script>
-          <i id="theme-icon" class="fas fa-sun toggle-icon" onclick="toggleTheme()"></i><br>
-          <a href="https://www.linkedin.com/company/se-software-web-developers/" class="btn btn-primary"> LinkedIn </a>
-          <a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-primary"> GitHub </a>
-            <a href="https://wa.me/917249785423" class="btn btn-primary"> WhatsApp </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
-            <a class="nav-link" href="about.html" title="About us">About us</a>
-            <a class="nav-link" href="services.html" title="Services">Services</a>
-            <a class="nav-link" href="portfolio.html" title="Portfolio">Portfolio</a>
-      </div>
+            <a href="https://github.com/Shamsuddin-Hamdule" class="btn btn-primary" title="View GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/917249785423" class="btn btn-primary" title="Message on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <a class="nav-link" href="index.html" title="Home">Home</a>
+                <a class="nav-link" href="about.html" title="About us">About us</a>
+                <a class="nav-link active" href="services.html" title="Our Services">Services</a>
+                <a class="nav-link" href="portfolio.html" title="Our Portfolio">Portfolio</a>
+                <a class="nav-link" href="cal.html" title="Project Calculator">
+                    <i class="fas fa-calculator"></i> Calculator
+                </a>
+            </div>
         </div>
-      </nav>
-      <header>
-        <a href="https://wa.me/917249785423" class="btn btn-success"> Get Your Free Demo Now </a>
-        <h5>📞 7249785423  hamduleshamsuddin@gmail.com </h5>
-        </header>
+    </nav>
+    
+    <header class="text-center py-4">
+        <a href="https://wa.me/917249785423" class="btn btn-success btn-lg mb-3" title="Get Free Consultation">
+            <i class="fab fa-whatsapp"></i> Get Your Free Consultation
+        </a>
+        <h5 class="text-white bg-dark p-3 rounded d-inline-block">
+            <i class="fas fa-phone"></i> 7249785423 
+            <i class="fas fa-envelope ms-3"></i> hamduleshamsuddin@gmail.com
+        </h5>
+    </header>
 
     <main>
-            <div class="container">
-                <h1>Our Services</h1>
-                <p style="color:blue;">At SE Software & Web Developers, we offer a wide range of services to meet the diverse needs of our clients. Our expertise spans across various domains, ensuring high-quality and tailored solutions for your business.</p>
-                
-                <h2>Website Development</h2>
-                <p style="color:blue;">We create responsive, user-friendly, and visually appealing websites that help your business establish a strong online presence. Our services include:</p>
-                <ul>
-                    <li>Custom website design and development</li>
-                    <li>Content management systems (CMS)</li>
-                    <li>E-commerce solutions</li>
-                    <li>Website maintenance and support</li>
-                </ul>
+        <div class="container py-5">
+            <h1 class="text-center mb-5">Our Services</h1>
+            <p class="lead text-center mb-5">We provide comprehensive digital solutions to help your business thrive in the digital world. From web development to digital marketing, we've got you covered.</p>
+            
+            <div class="row g-4">
+                <!-- Website Development -->
+                <div class="col-lg-6">
+                    <div class="service-card p-4 h-100">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-laptop-code fa-3x" style="color: #1E88E5;"></i>
+                        </div>
+                        <h2 class="text-center mb-3">Website Development</h2>
+                        <p>We create responsive, user-friendly, and visually appealing websites that help your business establish a strong online presence.</p>
+                        <h5 class="mt-4">Our Services Include:</h5>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle text-success"></i> Custom website design and development</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Content management systems (CMS)</li>
+                            <li><i class="fas fa-check-circle text-success"></i> E-commerce solutions</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Website maintenance and support</li>
+                            <li><i class="fas fa-check-circle text-success"></i> SEO-friendly development</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Responsive mobile design</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="cal.html?service=website" class="btn btn-primary">
+                                <i class="fas fa-calculator"></i> Get Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <h2>Software Development</h2>
-                <p style="color:blue;">Our software development services are designed to provide robust and scalable solutions tailored to your business needs. We specialize in:</p>
-                <ul>
-                    <li>Custom software development</li>
-                    <li>Enterprise software solutions</li>
-                    <li>Software integration</li>
-                    <li>Software maintenance and support</li>
-                </ul>
+                <!-- Software Development -->
+                <div class="col-lg-6">
+                    <div class="service-card p-4 h-100">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-code fa-3x" style="color: #1E88E5;"></i>
+                        </div>
+                        <h2 class="text-center mb-3">Software Development</h2>
+                        <p>Our software development services provide robust and scalable solutions tailored to your business needs.</p>
+                        <h5 class="mt-4">We Specialize in:</h5>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle text-success"></i> Custom software development</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Enterprise software solutions</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Software integration services</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Software maintenance and support</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Database design and management</li>
+                            <li><i class="fas fa-check-circle text-success"></i> API development and integration</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="cal.html?service=software" class="btn btn-primary">
+                                <i class="fas fa-calculator"></i> Get Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <h2>Mobile App Development</h2>
-                <p style="color:blue;">We develop high-performance mobile applications for both Android and iOS platforms. Our services include:</p>
-                <ul>
-                    <li>Custom mobile app development</li>
-                    <li>Cross-platform app development</li>
-                    <li>App UI/UX design</li>
-                    <li>App maintenance and support</li>
-                </ul>
+                <!-- Mobile App Development -->
+                <div class="col-lg-6">
+                    <div class="service-card p-4 h-100">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-mobile-alt fa-3x" style="color: #1E88E5;"></i>
+                        </div>
+                        <h2 class="text-center mb-3">Mobile App Development</h2>
+                        <p>We develop high-performance mobile applications for both Android and iOS platforms.</p>
+                        <h5 class="mt-4">Our App Services:</h5>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle text-success"></i> Custom mobile app development</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Cross-platform app development</li>
+                            <li><i class="fas fa-check-circle text-success"></i> App UI/UX design</li>
+                            <li><i class="fas fa-check-circle text-success"></i> App maintenance and support</li>
+                            <li><i class="fas fa-check-circle text-success"></i> App store optimization</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Backend integration</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="cal.html?service=app" class="btn btn-primary">
+                                <i class="fas fa-calculator"></i> Get Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <h2>Digital Marketing</h2>
-                <p style="color:blue;">Our digital marketing services are designed to enhance your online presence and drive business growth. We offer:</p>
-                <ul>
-                    <li>Search engine optimization (SEO)</li>
-                    <li>Social media marketing</li>
-                    <li>Pay-per-click (PPC) advertising</li>
-                    <li>Content marketing</li>
-                </ul>
+                <!-- Digital Marketing -->
+                <div class="col-lg-6">
+                    <div class="service-card p-4 h-100">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-bullhorn fa-3x" style="color: #1E88E5;"></i>
+                        </div>
+                        <h2 class="text-center mb-3">Digital Marketing</h2>
+                        <p>Our digital marketing services are designed to enhance your online presence and drive business growth.</p>
+                        <h5 class="mt-4">Marketing Services:</h5>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle text-success"></i> Search engine optimization (SEO)</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Social media marketing</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Pay-per-click (PPC) advertising</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Content marketing</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Email marketing campaigns</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Analytics and reporting</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="https://wa.me/917249785423?text=I'm%20interested%20in%20Digital%20Marketing%20services" class="btn btn-primary" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Get Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-                <h2>Consulting Services</h2>
-                <p style="color:blue;">We provide expert consulting services to help you make informed decisions about your technology and business strategies. Our consulting services include:</p>
-                <ul>
-                    <li>IT strategy and planning</li>
-                    <li>Technology assessment</li>
-                    <li>Project management</li>
-                    <li>Business process improvement</li>
-                </ul>
+                <!-- Consulting Services -->
+                <div class="col-lg-6">
+                    <div class="service-card p-4 h-100">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-chart-line fa-3x" style="color: #1E88E5;"></i>
+                        </div>
+                        <h2 class="text-center mb-3">Consulting Services</h2>
+                        <p>We provide expert consulting services to help you make informed decisions about your technology and business strategies.</p>
+                        <h5 class="mt-4">Consulting Areas:</h5>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle text-success"></i> IT strategy and planning</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Technology assessment</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Project management</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Business process improvement</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Digital transformation</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Technical documentation</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="mailto:hamduleshamsuddin@gmail.com?subject=Consulting%20Services%20Inquiry" class="btn btn-primary">
+                                <i class="fas fa-envelope"></i> Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Hosting -->
+                <div class="col-lg-6">
+                    <div class="service-card p-4 h-100">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-server fa-3x" style="color: #1E88E5;"></i>
+                        </div>
+                        <h2 class="text-center mb-3">Web Hosting & Maintenance</h2>
+                        <p>Reliable hosting solutions and ongoing maintenance to keep your website running smoothly.</p>
+                        <h5 class="mt-4">Hosting Services:</h5>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle text-success"></i> Website hosting solutions</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Domain registration</li>
+                            <li><i class="fas fa-check-circle text-success"></i> SSL certificate installation</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Regular backups</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Security monitoring</li>
+                            <li><i class="fas fa-check-circle text-success"></i> Performance optimization</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <a href="https://wa.me/917249785423?text=I'm%20interested%20in%20Hosting%20services" class="btn btn-primary" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Get Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Service Packages -->
+            <div class="service-packages mt-5 pt-5">
+                <h2 class="text-center mb-5">Service Packages</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="package-card text-center p-4 h-100">
+                            <h3 class="package-title">Basic</h3>
+                            <div class="package-price">₹5,000+</div>
+                            <p>Perfect for small businesses starting online</p>
+                            <ul class="package-features">
+                                <li>5 Page Website</li>
+                                <li>Responsive Design</li>
+                                <li>Basic SEO</li>
+                                <li>Contact Form</li>
+                                <li>1 Month Support</li>
+                            </ul>
+                            <a href="cal.html" class="btn btn-outline-primary w-100">Get Quote</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="package-card text-center p-4 h-100 popular">
+                            <div class="popular-badge">Most Popular</div>
+                            <h3 class="package-title">Professional</h3>
+                            <div class="package-price">₹15,000+</div>
+                            <p>Ideal for growing businesses</p>
+                            <ul class="package-features">
+                                <li>10 Page Website</li>
+                                <li>Mobile App</li>
+                                <li>Advanced SEO</li>
+                                <li>CMS Integration</li>
+                                <li>3 Months Support</li>
+                            </ul>
+                            <a href="cal.html" class="btn btn-primary w-100">Get Quote</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="package-card text-center p-4 h-100">
+                            <h3 class="package-title">Enterprise</h3>
+                            <div class="package-price">Custom</div>
+                            <p>Complete solutions for large businesses</p>
+                            <ul class="package-features">
+                                <li>Custom Software</li>
+                                <li>Multiple Apps</li>
+                                <li>Full SEO Package</li>
+                                <li>Digital Marketing</li>
+                                <li>6 Months Support</li>
+                            </ul>
+                            <a href="https://wa.me/917249785423" class="btn btn-outline-primary w-100" target="_blank">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section text-center py-5 mt-5">
+                <h2 class="mb-4">Ready to Start Your Project?</h2>
+                <p class="mb-4">Contact us today for a free consultation and project estimate.</p>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <a href="https://wa.me/917249785423" class="btn btn-success btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                    <a href="tel:+917249785423" class="btn btn-primary btn-lg">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <a href="cal.html" class="btn btn-warning btn-lg">
+                        <i class="fas fa-calculator"></i> Estimate Project
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <h5>📞 7249785423  hamduleshamsuddin@gmail.com </h5><br>
-    
-        <p>&copy; 2024 SE Software & Web Developers. All Rights Reserved.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-phone"></i> +91 7249785423</p>
+                    <p><i class="fas fa-envelope"></i> hamduleshamsuddin@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sun: 9:00 AM - 8:00 PM</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="portfolio.html">Portfolio</a></p>
+                    <p><a href="cal.html">Cost Calculator</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <p>
+                        <a href="https://www.linkedin.com/company/se-software-web-developers/" title="LinkedIn" class="me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/Shamsuddin-Hamdule" title="GitHub" class="me-3"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="https://wa.me/917249785423" title="WhatsApp"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    </p>
+                </div>
+            </div>
+            
+            <hr style="border-color: rgba(255,255,255,0.1); margin: 30px 0;">
+            
+            <p class="text-center">Developed & Maintained By SE Software & Web Developers</p>
+            <p class="text-center">&copy; 2024 SE Software & Web Developers. All Rights Reserved.</p>
+        </div>
     </footer>
+
+    <style>
+        .service-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .service-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .service-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .service-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .service-list i {
+            margin-right: 10px;
+        }
+        
+        .package-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border: 2px solid #e0e0e0;
+            position: relative;
+        }
+        
+        .package-card.popular {
+            border-color: #1E88E5;
+            transform: scale(1.05);
+        }
+        
+        .popular-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1E88E5;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        .package-title {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .package-price {
+            font-size: 2em;
+            font-weight: bold;
+            color: #1E88E5;
+            margin: 15px 0;
+        }
+        
+        .package-features {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        .package-features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .package-features li:last-child {
+            border-bottom: none;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .package-card.popular {
+                transform: scale(1);
+            }
+        }
+    </style>
 </body>
 </html>
